@@ -65,10 +65,8 @@ number_inputs_weights = st.slider(
 st.write(number_inputs_weights)
 st.subheader("Pesos")
 w_values= inputs_cols_generator(number_inputs_weights, 'w')
-st.write(w_values)
 st.subheader("Entradas")
 x_values = inputs_cols_generator(number_inputs_weights, 'x')
-st.write(x_values)
 
 
 
